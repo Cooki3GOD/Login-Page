@@ -8,7 +8,7 @@ A simple and clean login page designed to provide a user-friendly interface for 
 ### Live Demo
 [First Design](https://raw.githack.com/Cooki3GOD/Login-Page/main/mordernLoginPage1/index.html)
 <br>
-[Second Design](https://raw.githack.com/Cooki3GOD/Login-Page/main/mordernLoginPage2/index.html)
+[Second Design](https://raw.githack.com/Cooki3GOD/Login-Page/main/modernLoginPage2/index.html)
 
 ## Technologies
 This project is created with:
