@@ -141,6 +141,7 @@ body{
     margin: 0 3px;
     width: 40px;
     height: 40px;
+    font-size: 20px;
 }
 
 .toggle-container{
@@ -207,4 +208,68 @@ body{
 
 .container.active .toggle-right{
     transform: translateX(200%);
+}
+
+/* MOBILE DESIGN */
+
+@media screen and (max-width: 800px) {  
+    .container {
+        height: calc(100vh - 50px);
+    }
+    .form-container {
+        align-self: flex-end;
+        bottom: 0;
+        width: 100%;
+        height: 70%;
+        form {
+            margin-top: 100px;
+            padding: 40px;
+            height: 70%;
+            h1 {
+                text-align: center;
+                padding: 10px;
+                font-size: 80px;
+            }
+            .social-buttons {
+                width: 80%;
+                height: 100px; 
+                display: flex;
+                justify-content: center;
+                a {
+                    padding: 30px;
+                    font-size: 30px;
+                }
+            }
+            input {
+                font-size: 20px;
+                padding: 10px;
+            }
+            button {
+                padding: 30px;
+                font-size: 20px;
+            }
+        }
+    }
+    .toggle-container {
+        width: 100%;
+        height: 30%;
+        left: 0;
+        border-radius:0 0 100px 100px;
+    }
+    .container.active {
+        .toggle-container {
+            transform: translateY(235%);
+            border-radius: 100px 100px 0 0;
+        }
+        .form-container {
+            transform: translateY(-50%);
+        }
+        .sign-in {
+            transform: translateY(-200%);
+        }
+        .sign-up {
+            display: flex;
+            align-items: center;
+        }
+    }
 }
