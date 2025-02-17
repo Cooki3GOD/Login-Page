@@ -270,6 +270,7 @@ body{
         .sign-up {
             display: flex;
             align-items: center;
+            
         }
     }
 }
